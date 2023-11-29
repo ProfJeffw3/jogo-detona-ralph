@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../jogo-detona-ralph/src/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../jogo-detona-ralph/src/css/reset.css">
+    <title>Detona Ralph</title>
+</head>
+<body>
+    <main class="container">
+        <header class="cabecalho">
+            <nav class="menu">
+                <section class="menu-time">
+                    <h2>Time Left</h2>
+                    <h3 id="time-left">0</h3>
+                </section>
+                <section class="menu-score">
+                    <h2>Your Score</h2>
+                    <h3 id="score">0</h3>
+                </section>
+                <section class="menu-lives">
+                    <img id="jogador" src="src/imagens/player.png" alt="foto do jogador"/>
+                    <h3>X3</h3>
+                </section>
+            </nav>
+        </header>
+        <table class="painel">
+            <tr class="painel-row">
+                <th class="square" id="1"></th>
+                <th class="square enemy" id="2"></th>
+                <th class="square" id="3"></th>
+            </tr>
+            <tr class="painel-row">
+                <th class="square" id="4"></th>
+                <th class="square" id="5"></th>
+                <th class="square" id="6"></th>
+            </tr>
+            <tr class="painel-row">
+                <th class="square" id="7"></th>
+                <th class="square" id="8"></th>
+                <th class="square" id="9"></th>
+            </tr>
+        </table>
+    </main>
+    <script defer src="src/javascript/engine.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Retro;
+}
+@font-face {
+    font-family: Retro;
+    src: url(../fonte/Press_Start_2P/PressStart2P-Regular.ttf);
+}
